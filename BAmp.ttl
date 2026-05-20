@@ -3,6 +3,12 @@
 @prefix doap: <http://usefulinc.com/ns/doap#> .
 @prefix ui: <http://lv2plug.in/ns/extensions/ui#> .
 
+<http://www.jahnichen.de/sjaehn#me>
+	a foaf:Person;
+	foaf:name "Sven Jaehnichen";
+#	foaf:mbox ;
+	foaf:homepage <https://github.com/sjaehn/> .
+
 <https://www.jahnichen.de/plugins/lv2/BAmp#GUI>
         a ui:X11UI ;
         ui:binary <BAmp_GUI.so> ;
